@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(156, 111, 52);
+    border-radius: 20px;
+    width: 300px;
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgba(232, 235, 223, 0.87);
+      margin-top: 10px;
+      padding: 0px 15px;
+    }
+    .offers {
+      h4{
+        font-size: small;
+     }
+     p {
+      font-weight: bold;
+      font-size: large;
+    }
+      .services {
+        background-color: rgb(233, 240, 235);
+        padding : 10px;
+        
+      }
+
+      .favourites {
+        background-color: rgb(233, 240, 235);
+        padding: 20px;
+        
+      }
+    }
+  
+    .offer-links{
+      padding: 15px;
+      
+
+    }
+  }
+  
+  
+}
+ 

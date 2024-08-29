@@ -1,0 +1,57 @@
+body{
+ 
+    display: flex;
+    flex-direction: column;
+    padding: 40px;  
+    width: '100vh';
+
+
+    
+   #container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 10px;
+    height: 600px;
+    width: 500px;
+   }
+    
+
+
+    p{
+        font-size: 20px;
+        color: white;
+        height: 16px;
+        width: fit-content;
+    }
+          /*  */
+   #header{
+    display: flex;
+    gap: 12px;
+    height: 200px;
+
+    #instructions{
+        width: 50%;
+    }
+    img{
+        width: 40%;
+    }
+
+
+   }
+
+   /* */
+   .calculatorwrapper{
+    height: 200px;
+    width: 400px;
+      background-color:rgb(201, 199, 196) ;
+      padding: 10px;
+      border-radius: 10px;
+  
+    }
+   }
+
