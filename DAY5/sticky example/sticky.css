@@ -1,0 +1,6 @@
+div{
+    position: sticky;
+    top: 0;
+    background-color: lightpink;
+    padding: 10px;
+}
