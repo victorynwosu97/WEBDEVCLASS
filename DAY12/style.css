@@ -1,0 +1,272 @@
+body{
+    text-decoration: none;
+}
+.container{
+    background-color: #F4F7FA;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    background-color: #161c2d;
+    padding: 50px;
+    gap: 50px;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: top;
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+    }
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+    ul{
+        display: flex;
+        gap: 20px;
+    }
+
+    h1{
+        color: white;
+        padding: 0px;
+        margin: 0px;
+    }
+    p{
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .hero{
+        
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+
+        a{
+            color: green;
+        }
+    }
+    .getmore{
+        width: 400px;
+    }
+    .italia{
+        font-family: italics;
+    }
+    .links{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Features{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: left;
+        margin-top: 40px;
+
+    }
+    .campaigns{
+        width: 350px;
+        padding: 0 40px;
+    }
+    .content{
+        display: flex;
+        padding: 30px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 50px;
+
+        a{
+            color: blue;
+        }
+    }
+    .content-right{
+        width: 320px;
+        
+        
+    }
+    .imgwrapper{
+        position: relative;
+        
+    }
+    #imgposition{
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        box-shadow: 3px 3px 10px;
+        
+
+
+        h2{
+            text-align: center;
+    }
+    }
+    #blur{
+        filter: blur(2px);
+        
+    }
+   
+    
+    img{
+        height: 200px;
+    }
+    .budgets{
+        display: flex;
+        flex-direction: column;
+        background-color: #ECF2F7;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Pricing{
+        width: 400px;
+        
+    }
+    .Monthly{
+        display: flex;
+        gap: 30px;
+
+        button{
+            color: blue;
+            background-color: #979797;
+            border-radius: 50px;
+            width: 70px;
+            size: 60px;
+            height: 30px;
+            font-size: 10px;
+        }
+    }
+    a{
+        color: blue;
+    }
+    .cardscontainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+    .card{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: left;
+        gap: 10px ;
+
+           
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            font-size: 12px;
+            padding: 0px;
+        }
+
+        h2{
+            padding: 0px;
+            margin: 0px;
+        }
+        button{
+            width: 150px;
+        }
+        p{
+            padding: 0px;
+            margin: 0px;
+            text-align: left;
+            font-size: 10px;
+        }
+    }
+    .quotes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 30px;
+
+        span{
+            font-weight: bold;
+        }
+    }
+    .reviews{
+        width: 300px;
+    }
+    .price{
+        display: flex;
+        text-align: left;
+
+        span{
+            align-self: flex-end;
+        }
+    }
+    .footercontainer{
+        background-color: #161c2d;
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            padding: 0px;
+            margin: 0px;
+            
+        }
+        p{
+            
+            text-align: justify;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 70px;
+    }
+    .copyright{
+        background-color: #161c2d;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        
+
+        
+    }

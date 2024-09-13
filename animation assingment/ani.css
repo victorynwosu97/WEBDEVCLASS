@@ -1,0 +1,16 @@
+@keyframes optimized-move {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100px);
+    }
+}
+
+.box {
+    animation: optimized-move 2s ease-in-out infinite alternate;
+    background-color: chocolate;
+    height: 100px;
+    width: 100px;
+
+} 
